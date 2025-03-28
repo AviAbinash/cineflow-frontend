@@ -78,7 +78,7 @@ export default function ProfilePage() {
     if (profile) {
       setName(profile?.name);
       setEmail(profile?.email);
-      setAvatar(profile?.profileUrl);
+      setAvatar(profile?.avatar);
     }
   }, [profile]);
 
